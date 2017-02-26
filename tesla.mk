@@ -20,6 +20,7 @@ $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 # Inherit some common tesla stuff.
 $(call inherit-product, vendor/tesla/config/common.mk)
 $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
